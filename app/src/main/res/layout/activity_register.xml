@@ -1,0 +1,107 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_event_item"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIST OF EVENTS"
+        android:textSize="40dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/techExpoCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tech Expo"
+        android:tag="100"/>
+
+    <CheckBox
+        android:id="@+id/hackathonCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hackathon"
+        android:tag="250"/>
+
+    <CheckBox
+        android:id="@+id/globalFusionFestCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Global Fusion Fest"
+        android:tag="250"/>
+
+    <CheckBox
+        android:id="@+id/mindscapeSymposiumCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mindscape Symposium"
+        android:tag="100"/>
+
+    <CheckBox
+        android:id="@+id/stemExpoExtravaganzaCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STEM Expo Extravaganza"
+        android:tag="150"/>
+
+    <CheckBox
+        android:id="@+id/artsRenaissanceCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arts Renaissance"
+        android:tag="100"/>
+
+    <CheckBox
+        android:id="@+id/careerCarnivalCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Career Carnival"
+        android:tag="100"/>
+
+    <CheckBox
+        android:id="@+id/entrepreneurshipExpoCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrepreneurship Expo"
+        android:tag="125"/>
+
+    <CheckBox
+        android:id="@+id/literarySoireeCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Literary Soiree"
+        android:tag="50"/>
+
+    <CheckBox
+        android:id="@+id/cosmicOdysseyCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cosmic Odyssey"
+        android:tag="200"/>
+
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Total: 0"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/sbmt"
+        android:textSize="30sp"
+        android:backgroundTint="@color/transparent"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

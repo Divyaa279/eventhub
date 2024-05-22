@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".forgetpass">
+
+
+    <TextView
+        android:id="@+id/textviewa"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="50dp"
+
+        android:gravity="center"
+        android:text="forget password"
+        android:textColor="#1E1E1D"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:background="#A1121111"
+        android:gravity="center"
+        android:text="Enter Your E-Mail Address"
+        android:textColor="#F8C20B"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/container"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="8dp"
+        android:hint="Username"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background" />
+
+
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#F6D00B"
+        android:text="GENERATE LINK"
+        android:textColor="#100E0E"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

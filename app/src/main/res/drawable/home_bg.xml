@@ -1,0 +1,11 @@
+<!-- bg_event_item.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+
+    <gradient
+        android:startColor="#65D6D2"
+        android:endColor="#8383D6"
+        android:angle="45"/>
+    <corners android:radius="20dp" />
+</shape>

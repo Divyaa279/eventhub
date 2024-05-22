@@ -1,0 +1,439 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_event_item">
+
+            <TextView
+                android:id="@+id/event1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TECH EXPO"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/desc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Explore groundbreaking projects, interact with cutting-edge technology, and network with industry leaders. From AI and robotics to virtual reality and cybersecurity, dive into the world of tomorrow, today."
+                android:layout_marginTop="15dp"
+                android:maxLines="2"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/event1"
+                android:layout_marginBottom="8dp"/>
+
+            <!-- Link or button for more details -->
+            <TextView
+                android:id="@+id/det1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Details "
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/desc1"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_event_item">
+
+            <TextView
+                android:id="@+id/event2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HACKATHON"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/desc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A competitive event where students work in teams to develop innovative solutions to real-world problems within a limited time frame. It's a great opportunity for students to showcase their coding and problem-solving skills while collaborating with peers and industry professionals."
+                android:layout_marginTop="15dp"
+                android:maxLines="2"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/event2"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/det2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Details"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/desc2"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_event_item">
+
+            <TextView
+                android:id="@+id/event3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GLOBAL FUSION FEST"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/desc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" A vibrant event celebrating diversity where students can showcase their cultural heritage through food, music, dance, and art. It promotes cross-cultural understanding and appreciation among students."
+                android:layout_marginTop="15dp"
+                android:maxLines="2"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/event3"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/det3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Details"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/desc3"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_event_item">
+
+            <TextView
+                android:id="@+id/event4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MINDSCAPE SYMPOSIUM"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/desc4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description about the event"
+                android:layout_marginTop="15dp"
+                android:maxLines="2"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/event4"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/det4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Details"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/desc4"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_event_item">
+
+            <TextView
+                android:id="@+id/event5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STEM EXPO EXTRAVAGANZA"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/desc5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description about the event"
+                android:layout_marginTop="15dp"
+                android:maxLines="2"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/event5"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/det5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Details"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/desc5"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_event_item">
+
+            <TextView
+                android:id="@+id/event6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ARTS RENAISSANCE"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/desc6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description about the event"
+                android:layout_marginTop="15dp"
+                android:maxLines="2"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/event6"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/det6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Details"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/desc6"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_event_item">
+
+            <TextView
+                android:id="@+id/event7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CAREER CARNIVAL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/desc7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description about the event"
+                android:layout_marginTop="15dp"
+                android:maxLines="2"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/event7"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/det7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Details"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/desc7"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_event_item">
+
+            <TextView
+                android:id="@+id/event8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ENTREPRENEURSHIP EXPO"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/desc8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description about the event"
+                android:layout_marginTop="15dp"
+                android:maxLines="2"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/event8"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/det8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Details"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/desc8"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_event_item">
+
+            <TextView
+                android:id="@+id/event9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LITERARY SOIREE"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/desc9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description about the event"
+                android:layout_marginTop="15dp"
+                android:maxLines="2"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/event9"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/det9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Details"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/desc9"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_event_item">
+
+            <TextView
+                android:id="@+id/event10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COSMIC ODYSSEY"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/desc10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description about the event"
+                android:layout_marginTop="15dp"
+                android:maxLines="2"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/event10"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/det10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More Details"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/desc10"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

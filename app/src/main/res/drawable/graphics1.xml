@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set the solid color for the shape -->
+    <gradient
+        android:startColor="#65D6D2"
+        android:endColor="#8383D6"
+        android:angle="45"/>
+    <!-- Set the corner radius for rounded corners -->
+    <corners
+        android:topLeftRadius="45dp"
+        android:topRightRadius="45dp"
+        android:bottomLeftRadius="45dp"
+        android:bottomRightRadius="45dp" />
+    <!-- Set the stroke (outline) color and width -->
+    <stroke
+        android:width="3dp"
+        android:color="#9608EF" />
+</shape>
